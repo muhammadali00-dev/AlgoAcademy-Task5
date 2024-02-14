@@ -1,5 +1,6 @@
 .insvg {
   margin-top: 24px;
+  margin-left: 30px;
   border-radius: 12px;
 }
 .learnbtn {
@@ -9,11 +10,38 @@
   font-weight: 800;
   border-radius: 5px;
   padding: 8px 16px;
-  margin-right: 240px;
   margin-top: 20px;
+  margin-left: 30px;
 }
 .paragraph {
-  margin-right: 170px;
+  margin-left: 30px;
   margin-top: 20px;
 }
+.heading {
+  margin-left: 30px;
+}
+.heading:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.longP {
+  color: gray;
+  margin-left: 30px;
+}
 
+.person {
+  position: relative;
+  top: 10px;
+}
+.image {
+  position: absolute;
+  margin-left: 30px;
+  width: 30px;
+}
+
+.name {
+  position: absolute; 
+  margin: 0;
+  left: 75px;
+  top: 5px;
+}
